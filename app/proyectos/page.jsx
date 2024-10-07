@@ -49,8 +49,8 @@ const projects = [
     description: "Portfolio personal de Manuel Prieto de Antón",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/myportfolio.png",
-    live: "https://manurubik.github.io",
-    github: "https://github.com/manurubik/",
+    live: "https://manurubik.github.io/myportfolio",
+    github: "https://github.com/manurubik/myportfolio",
   },
 ];
 

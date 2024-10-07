@@ -22,7 +22,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] lg:w-[498px] lg:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/photo.png"
+            src="https://manurubik.github.io/myportfolio/assets/photo.png"
             priority
             quality={100}
             fill

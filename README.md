@@ -1,38 +1,26 @@
-# 🚀 Manuel's Portfolio
+# Manuel's Portfolio 💼
 
-Bienvenido a mi portfolio. Aquí podrás conocer más sobre mí, mis proyectos, habilidades técnicas y la pasión que pongo en el desarrollo web y móvil.
+**Manuel's Portfolio** es una página web sencilla diseñada para mostrar mis proyectos de desarrollo frontend y aplicaciones móviles, proporcionando una interfaz clara y atractiva donde se pueden explorar mis trabajos más recientes y mis habilidades.
 
-## 🌟 Sobre mí
+Este proyecto está construido con un enfoque en diseño limpio y eficiente, brindando una experiencia óptima en cualquier dispositivo.
 
-Soy un desarrollador frontend con experiencia en la creación de aplicaciones web y móviles utilizando tecnologías modernas como HTML 5, CSS 3, JavaScript, y frameworks populares. Me motiva trabajar en entornos dinámicos, donde pueda seguir aprendiendo y colaborando con otros profesionales apasionados por la tecnología.
+## Demo 🚀
 
-Estoy siempre abierto a nuevas oportunidades de colaboración que me permitan aplicar mis habilidades y seguir creciendo profesionalmente.
+Enlace al [proyecto](https://manurubik.github.io/myportfolio)
 
-## 📚 Habilidades Técnicas
+## Características 🎉
 
-- **Lenguajes de marcado:** HTML5, Pug, Markdown
-- **Estilos:** CSS3, SASS, TailwindCSS, Bootstrap
-- **Scripts:** JavaScript, TypeScript, React.js, Next.js, Node.js
-- **GUIs & Android:** Java, Kotlin
-- **Bases de Datos:** MySQL, SQLite, MongoDB
-- **Desarrollo:** Git, npm, Gulp, Vite
-- **Herramientas:** VS Code, Figma, GitHub, Wordpress
+- **Proyectos destacados**: Sección dedicada a mostrar los proyectos más relevantes, con descripciones detalladas y enlaces al repositorio.
+- **Formulario de contacto**: Los usuarios pueden enviarme mensajes fácilmente utilizando un formulario que funciona con EmailJS.
+- **Responsive design**: El portafolio está optimizado para adaptarse perfectamente a móviles, tablets y computadoras.
+- **Animaciones ligeras**: Animaciones sutiles implementadas con **Framer Motion** para mejorar la navegación y la experiencia de usuario.
 
-## 📂 Proyectos
+## Tecnologías utilizadas 🛠️
 
-Aquí algunos de los proyectos en los que he trabajado:
-
-### [Generador de acreditaciones](https://manurubik.github.io/accreditation-generator/)
-
-**Descripción:** Generador de acreditaciones para eventos deportivos.
-**Tecnologías:** HTML, SASS, JavaScript
-
-### [Proyecto 2](#)
-
-**Descripción:** Breve descripción de tu proyecto.
-**Tecnologías:** React, TailwindCSS
-
-> Puedes encontrar más proyectos en [mi portfolio](https://manurubik.github.io/myportfolio).
+- **HTML5**: Estructura de la página.
+- **Tailwind CSS**: Estilos y diseño visual, con un enfoque en el responsive design.
+- **JavaScript**: Interactividad y funcionalidades del sitio.
+- **Next.js**: Framework de React para el desarrollo web.
 
 ## 📫 Contacto
 
@@ -43,4 +31,5 @@ Estoy siempre disponible para discutir nuevas oportunidades o colaboraciones. No
 
 ---
 
-Gracias por visitar mi portfolio, ¡espero que podamos trabajar juntos pronto!
+Gracias por visitar mi portfolio, ¡espero que podamos trabajar juntos pronto! 💼
+

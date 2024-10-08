@@ -55,7 +55,7 @@ const experience = {
       ],
     },
     {
-      company: "WCA, AES & AMS",
+      company: "Colegio Internacional Villa de Móstoles + WCA, AES & AMS",
       position: "Co-Organizador de eventos",
       duration: "Mayo 2024",
       desc: "Co-organización del campeonato de speedcubing 'Móstoles Open 2024', evento deportivo del 'Cubo de Rubik' con más de 100 participantes y varios competidores internacionales de élite",
@@ -446,7 +446,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="w-full py-5 bg-[#232329] rounded-lg flex flex-col justify-around items-center gap-1 border border-transparent hover:border-accent/40"
+                          className="w-full py-5 bg-[#232329] rounded-lg flex flex-col justify-around items-center gap-1 border border-transparent hover:border-accent/40 min-h-[200px]"
                           onMouseEnter={() => handleMouseEnter(item)}
                           onMouseLeave={handleMouseLeave}
                         >
@@ -454,9 +454,11 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] justify-center text-center">
                             {item.position}
                           </h3>
-                          <div className="flex justify-center items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.company}</p>
+                          <div className="flex justify-center items-center gap-3 px-2">
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent p-1"></span>
+                            <p className="text-white/60 text-center text-sm">
+                              {item.company}
+                            </p>
                           </div>
                         </li>
                       );
@@ -477,7 +479,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="w-full p-5 bg-[#232329] rounded-lg flex flex-col justify-around items-center gap-2 border border-transparent hover:border-accent/40"
+                          className="w-full p-5 bg-[#232329] rounded-lg flex flex-col justify-around items-center gap-2 border border-transparent hover:border-accent/40 min-h-[200px]"
                           onMouseEnter={() => handleMouseEnter(item)}
                           onMouseLeave={handleMouseLeave}
                         >
@@ -485,9 +487,9 @@ const Resume = () => {
                           <h3 className="text-xl max-w-[260px] min-h-[60px] justify-center text-center">
                             {item.degree}
                           </h3>
-                          <div className="flex justify-center items-center gap-3">
+                          <div className="flex justify-center items-center gap-3 px-2">
                             <span className="w-[6px] h-[6px] rounded-full bg-accent p-1"></span>
-                            <p className="text-white/60 text-sm">
+                            <p className="text-white/60 text-center text-sm">
                               {item.institution}
                             </p>
                           </div>
@@ -514,7 +516,7 @@ const Resume = () => {
                               <TooltipProvider delayDuration={100}>
                                 <Tooltip>
                                   <TooltipTrigger
-                                    className={`w-full h-[150px] bg-[#232329] rounded-lg flex justify-center items-center  
+                                    className={`w-full h-[140px] bg-[#232329] rounded-lg flex justify-center items-center  
                                     ${
                                       activeItem === category
                                         ? "border-accent/40 border hover:text-accent"

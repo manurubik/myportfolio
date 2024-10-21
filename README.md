@@ -22,10 +22,6 @@ Puedes ver mi portfolio desplegado en GitHub Pages en el siguiente enlace:
 
 [**Mi portfolio**](https://manurubik.github.io/myportfolio/)
 
-## 🚀 Despliegue
-
-El proyecto está configurado para ser desplegado automáticamente utilizando **GitHub Actions**. El flujo de trabajo de despliegue (`deploy.yml`) se encarga de construir y desplegar la aplicación en cada push a la rama `gh-pages`.
-
 ## 🤝 Contribuciones
 
 Este es un proyecto personal, pero si encuentras algún problema o tienes sugerencias, no dudes en crear un **issue** o enviar un **pull request**.

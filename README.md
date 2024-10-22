@@ -1,35 +1,31 @@
-# Manuel's Portfolio 💼
+# 🌐 Portfolio Personal
 
-**Manuel's Portfolio** es una página web sencilla diseñada para mostrar mis proyectos de desarrollo frontend y aplicaciones móviles, proporcionando una interfaz clara y atractiva donde se pueden explorar mis trabajos más recientes y mis habilidades.
+Este es el código fuente de mi portfolio personal, desarrollado con **Next.js** y **Tailwind CSS**. Aquí muestro mis proyectos, habilidades y experiencia profesional, así como una sección de contacto para nuevas oportunidades.
 
-Este proyecto está construido con un enfoque en diseño limpio y eficiente, brindando una experiencia óptima en cualquier dispositivo.
+## 🛠️ Tecnologías utilizadas
 
-## Demo 🚀
+- **Next.js**: Framework de React para aplicaciones web con características avanzadas como enrutamiento del lado del servidor y generación de sitios estáticos.
+- **Tailwind CSS**: Framework CSS para un diseño rápido y altamente personalizable a través de clases de utilidad.
+- **Framer Motion**: Biblioteca para animaciones suaves y fluidas en React, ideal para crear transiciones interactivas.
 
-Enlace al [proyecto](https://manurubik.github.io/myportfolio)
+## ⚙️ Funcionalidades
 
-## Características 🎉
+- **👤 Presentación personal**: Sección donde me introduzco brevemente y menciono los objetivos del portfolio.
+- **💼 Servicios**: Habilidades técnicas organizadas por categorías, mostrando mis principales áreas de competencia.
+- **📄 CV**: Resumen de mi trayectoria laboral y educativo, así como mis tecnologías de uso cotidiano.
+- **📝 Proyectos**: Presentación de proyectos destacados, cada uno con su respectiva descripción y enlaces a repositorios o demostraciones en vivo.
+- **✉️ Contacto**: Formulario de contacto funcional, generando una plantilla para enviar correos directamente en mi bandeja.
 
-- **Proyectos destacados**: Sección dedicada a mostrar los proyectos más relevantes, con descripciones detalladas y enlaces al repositorio.
-- **Formulario de contacto**: Los usuarios pueden enviarme mensajes fácilmente utilizando un formulario que funciona con EmailJS.
-- **Responsive design**: El portafolio está optimizado para adaptarse perfectamente a móviles, tablets y computadoras.
-- **Animaciones ligeras**: Animaciones sutiles implementadas con **Framer Motion** para mejorar la navegación y la experiencia de usuario.
+## 🌍 Ver el portfolio
 
-## Tecnologías utilizadas 🛠️
+Puedes ver mi portfolio desplegado en GitHub Pages en el siguiente enlace:
 
-- **HTML5**: Estructura de la página.
-- **Tailwind CSS**: Estilos y diseño visual, con un enfoque en el responsive design.
-- **JavaScript**: Interactividad y funcionalidades del sitio.
-- **Next.js**: Framework de React para el desarrollo web.
+[**Mi portfolio**](https://manurubik.github.io/myportfolio/)
 
-## 📫 Contacto
+## 🤝 Contribuciones
 
-Estoy siempre disponible para discutir nuevas oportunidades o colaboraciones. No dudes en contactarme a través de:
+Este es un proyecto personal, pero si encuentras algún problema o tienes sugerencias, no dudes en crear un **issue** o enviar un **pull request**.
 
-- **Email:** [manuelprietodeanton@gmail.com](mailto:manuelprietodeanton@gmail.com)
-- **LinkedIn:** [linkedin.com/in/manuelprietodeanton](https://linkedin.com/in/manuelprietodeanton)
+## 📄 Licencia
 
----
-
-Gracias por visitar mi portfolio, ¡espero que podamos trabajar juntos pronto! 💼
-
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.

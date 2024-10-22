@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "./components/ui/button";
 import { FiDownload } from "react-icons/fi";
-import Social from "@/components/Social";
-import Photo from "@/components/Photo";
-import Stats from "@/components/Stats";
+import Social from "./components/Social";
+import Photo from "./components/Photo";
+import Stats from "./components/Stats";
 import Link from "next/link";
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <Link
-                href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_Informatica.pdf"
+                href="/ManuelPrieto_CV_Informatica.pdf"
                 download="ManuelPrietoCV"
                 type="application/pdf"
                 target="_blank"

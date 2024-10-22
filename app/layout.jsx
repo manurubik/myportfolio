@@ -1,9 +1,10 @@
 import { JetBrains_Mono } from "next/font/google";
+
 import "./globals.css";
-import Header from "@/components/Header";
-import PageTransition from "@/components/PageTransition";
-import StairTransition from "@/components/StairTransition";
-import Footer from "@/components/Footer";
+import Header from "./components/Header";
+import PageTransition from "./components/PageTransition";
+import StairTransition from "./components/StairTransition";
+import Footer from "./components/Footer";
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -13,11 +14,15 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Manuel Prieto's Portfolio",
   description: "Portfolio de Manuel Prieto de Antón. Github: @manurubik",
+  author: "Manuel Prieto de Antón",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`min-h-screen flex flex-col ${jetbrainsMono.variable}`}>
         <Header />
         <StairTransition />

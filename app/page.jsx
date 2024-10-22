@@ -25,7 +25,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <Link
-                href="/ManuelPrieto_CV_Informatica.pdf"
+                href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_Informatica.pdf"
                 download="ManuelPrietoCV"
                 type="application/pdf"
                 target="_blank"

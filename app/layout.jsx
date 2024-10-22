@@ -21,7 +21,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://manurubik.github.io/myportfolio/favicon.ico"
+        />
       </head>
       <body className={`min-h-screen flex flex-col ${jetbrainsMono.variable}`}>
         <Header />

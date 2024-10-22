@@ -4,7 +4,7 @@ export const projects = [
     category: "frontend",
     title: "SaaS Landing Page",
     description:
-      "La página de inicio para Softwares de Servicios (SaaS) ofrece una experiencia intuitiva y atractiva para los usuarios. Con un diseño moderno y responsivo, la página destaca las características clave de nuestro servicio, incluyendo planes de precios flexibles y testimonios de clientes satisfechos.",
+      "La página de inicio para Softwares de Servicios (SaaS) ofrece una experiencia intuitiva y atractiva para los usuarios. Con un diseño moderno y responsivo, la página destaca las características clave de nuestro servicio.",
     stack: [
       { name: "React + Vite" },
       { name: "Tailwind.css" },

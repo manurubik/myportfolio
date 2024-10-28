@@ -51,7 +51,7 @@ const Home = () => {
                   <DropdownMenuRadioGroup>
                     <DropdownMenuRadioItem value="General">
                       <Link
-                        href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_General.pdf"
+                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_General.pdf"
                         download="ManuelPrietoCV_General"
                         type="application/pdf"
                         target="_blank"
@@ -61,7 +61,7 @@ const Home = () => {
                     </DropdownMenuRadioItem>
                     <DropdownMenuRadioItem value="Administración y Finanzas">
                       <Link
-                        href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_Administrativo.pdf"
+                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Administrativo.pdf"
                         download="ManuelPrietoCV_Administrativo"
                         type="application/pdf"
                         target="_blank"
@@ -71,7 +71,7 @@ const Home = () => {
                     </DropdownMenuRadioItem>
                     <DropdownMenuRadioItem value="Programación y Software">
                       <Link
-                        href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_Programación.pdf"
+                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Programación.pdf"
                         download="ManuelPrietoCV_Progamacion"
                         type="application/pdf"
                         target="_blank"
@@ -81,7 +81,7 @@ const Home = () => {
                     </DropdownMenuRadioItem>
                     <DropdownMenuRadioItem value="Programación y Software 2">
                       <Link
-                        href="https://manurubik.github.io/myportfolio/ManuelPrieto_CV_Informatica.pdf"
+                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Informatica.pdf"
                         download="ManuelPrietoCV_Informatica"
                         type="application/pdf"
                         target="_blank"

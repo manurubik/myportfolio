@@ -3,8 +3,7 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuLabel,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
+  DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./components/ui/dropdown-menu";
@@ -35,7 +34,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <DropdownMenu>
-                <DropdownMenuTrigger>
+                <DropdownMenuTrigger asChild>
                   <Button
                     variant="outline"
                     size="lg"
@@ -45,51 +44,49 @@ const Home = () => {
                     <FiDownload className="text-xl" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent className="w-56 text-black/60">
+                <DropdownMenuContent className="w-60 text-black/60">
                   <DropdownMenuLabel>Elige CV:</DropdownMenuLabel>
                   <DropdownMenuSeparator />
-                  <DropdownMenuRadioGroup>
-                    <DropdownMenuRadioItem value="General">
-                      <Link
-                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_General.pdf"
-                        download="ManuelPrietoCV_General"
-                        type="application/pdf"
-                        target="_blank"
-                      >
-                        General
-                      </Link>
-                    </DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="Administración y Finanzas">
-                      <Link
-                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Administrativo.pdf"
-                        download="ManuelPrietoCV_Administrativo"
-                        type="application/pdf"
-                        target="_blank"
-                      >
-                        Administración y Finanzas
-                      </Link>
-                    </DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="Programación y Software">
-                      <Link
-                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Programación.pdf"
-                        download="ManuelPrietoCV_Progamacion"
-                        type="application/pdf"
-                        target="_blank"
-                      >
-                        Programación y Software
-                      </Link>
-                    </DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="Programación y Software 2">
-                      <Link
-                        href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Informatica.pdf"
-                        download="ManuelPrietoCV_Informatica"
-                        type="application/pdf"
-                        target="_blank"
-                      >
-                        Programación y Software 2
-                      </Link>
-                    </DropdownMenuRadioItem>
-                  </DropdownMenuRadioGroup>
+                  <DropdownMenuItem value="Programación y Software">
+                    <Link
+                      href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Programación.pdf"
+                      download="ManuelPrietoCV_Progamacion"
+                      type="application/pdf"
+                      target="_blank"
+                    >
+                      Programación y Software
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem value="General">
+                    <Link
+                      href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_General.pdf"
+                      download="ManuelPrietoCV_General"
+                      type="application/pdf"
+                      target="_blank"
+                    >
+                      General
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem value="Administración y Finanzas">
+                    <Link
+                      href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Administrativo.pdf"
+                      download="ManuelPrietoCV_Administrativo"
+                      type="application/pdf"
+                      target="_blank"
+                    >
+                      Administración y Finanzas
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem value="Programación y Software 2">
+                    <Link
+                      href="https://manurubik.github.io/myportfolio/assets/cvs/ManuelPrieto_CV_Informatica.pdf"
+                      download="ManuelPrietoCV_Informatica"
+                      type="application/pdf"
+                      target="_blank"
+                    >
+                      Programación y Software 2
+                    </Link>
+                  </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
               <div className="mb-8 lg:mb-0">

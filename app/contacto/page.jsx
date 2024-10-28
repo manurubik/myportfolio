@@ -144,15 +144,17 @@ Me interesan tus conocimientos en "${service}"!!`
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Selecciona un servicio</SelectLabel>
-                    <SelectItem value="Desarrollo Web">
-                      Desarrollo Web
+                    <SelectItem value="Desarrollo Web & UX/UI">
+                      Desarrollo Web & UX/UI
                     </SelectItem>
-                    <SelectItem value="Diseño UI/UX">Diseño UI/UX</SelectItem>
-                    <SelectItem value="Diseño de Logotipos">
-                      Diseño de Logotipos
+                    <SelectItem value="PWAs y Aplicaciones Android">
+                      PWAs y Aplicaciones Android
                     </SelectItem>
-                    <SelectItem value="Aplicaciones Android">
-                      Aplicaciones Android
+                    <SelectItem value="Administración & Ofimática">
+                      Administración & Ofimática
+                    </SelectItem>
+                    <SelectItem value="Agente de bolsa y Gestión de carteras">
+                      Agente de bolsa y Gestión de carteras
                     </SelectItem>
                     <SelectItem value="Otros">Otros</SelectItem>
                   </SelectGroup>

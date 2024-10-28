@@ -82,7 +82,7 @@ export const education = {
     {
       institution: "Universidad Antonio de Nebrija & INESEM",
       degree: "Bolsa y mercados financieros",
-      duration: "Ene 2020 - Jun 2021",
+      duration: "Ene - Jun 2021",
       desc: "Conceptos fundamentales del trading y la inversión en mercados bursátiles.",
       techs: [
         "Evaluación de riesgos, análisis técnico y fundamental, estrategias de inversión e instrumentos financieros.",
